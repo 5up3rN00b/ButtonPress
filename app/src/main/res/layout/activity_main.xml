@@ -8,10 +8,17 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <Button
-        android:id="@+id/buttonPresses"
+    <TextView
+        android:id="@+id/cpsText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Your cps is 0.0 cps"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/buttonPresses"
+        android:layout_width="155dp"
+        android:layout_height="65dp"
         android:text="Button Presses" />
 
 </LinearLayout>
